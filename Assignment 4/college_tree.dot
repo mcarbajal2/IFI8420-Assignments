@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Accept <= 3534.5\nsquared_error = 16409278.126\nsamples = 621\nvalue = 3086.285"] ;
+1 [label="Accept <= 1922.5\nsquared_error = 2609147.117\nsamples = 519\nvalue = 1747.988"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Accept <= 955.5\nsquared_error = 604645.478\nsamples = 422\nvalue = 1179.123"] ;
+1 -> 2 ;
+3 [label="squared_error = 99753.726\nsamples = 265\nvalue = 706.34"] ;
+2 -> 3 ;
+4 [label="squared_error = 442744.192\nsamples = 157\nvalue = 1977.134"] ;
+2 -> 4 ;
+5 [label="Top10perc <= 64.0\nsquared_error = 3796985.698\nsamples = 97\nvalue = 4222.845"] ;
+1 -> 5 ;
+6 [label="squared_error = 1060366.536\nsamples = 86\nvalue = 3744.105"] ;
+5 -> 6 ;
+7 [label="squared_error = 9391336.926\nsamples = 11\nvalue = 7965.727"] ;
+5 -> 7 ;
+8 [label="Accept <= 8020.0\nsquared_error = 31144155.086\nsamples = 102\nvalue = 9895.853"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Top10perc <= 66.0\nsquared_error = 5918297.145\nsamples = 78\nvalue = 7774.551"] ;
+8 -> 9 ;
+10 [label="squared_error = 3163059.999\nsamples = 69\nvalue = 7245.029"] ;
+9 -> 10 ;
+11 [label="squared_error = 8411167.506\nsamples = 9\nvalue = 11834.222"] ;
+9 -> 11 ;
+12 [label="Unnamed: 0_Rutgers at New Brunswick <= 0.5\nsquared_error = 50973038.326\nsamples = 24\nvalue = 16790.083"] ;
+8 -> 12 ;
+13 [label="squared_error = 8730949.694\nsamples = 23\nvalue = 15429.043"] ;
+12 -> 13 ;
+14 [label="squared_error = 0.0\nsamples = 1\nvalue = 48094.0"] ;
+12 -> 14 ;
+}
