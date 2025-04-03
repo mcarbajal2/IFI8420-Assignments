@@ -24,7 +24,7 @@ edge [fontname="helvetica"] ;
 9 -> 10 ;
 11 [label="squared_error = 8411167.506\nsamples = 9\nvalue = 11834.222"] ;
 9 -> 11 ;
-12 [label="Unnamed: 0_Rutgers at New Brunswick <= 0.5\nsquared_error = 50973038.326\nsamples = 24\nvalue = 16790.083"] ;
+12 [label="Accept <= 22537.0\nsquared_error = 50973038.326\nsamples = 24\nvalue = 16790.083"] ;
 8 -> 12 ;
 13 [label="squared_error = 8730949.694\nsamples = 23\nvalue = 15429.043"] ;
 12 -> 13 ;
